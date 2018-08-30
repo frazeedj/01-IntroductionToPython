@@ -118,6 +118,6 @@ print(3607 * 34227)
 #     then run the file (to make sure you didn't break anything)
 #     and COMMIT-and-PUSH again.
 #
-#   You can COMMIT-and-PUSH as often as you like. DO IT FREQUENTLY.
+#   You can COMMIT-and-PUSH as often as you like.  DO IT FREQUENTLY.
 #
 ###############################################################################
