@@ -33,16 +33,30 @@ window = rg.TurtleWindow
 
 red_turtle = rg.SimpleTurtle('turtle')
 red_turtle.pen = rg.Pen('red', 15)
-red_turtle.speed = 5
+red_turtle.speed = 1
 
 yellow_turtle = rg.SimpleTurtle('turtle')
 yellow_turtle.pen = rg.Pen('yellow', 15)
-yellow_turtle.speed = 3
+yellow_turtle.speed = 1
 
-for k in range(3):
+for k in range(2):
     red_turtle.forward(100)
     red_turtle.right(120)
+red_turtle.forward(105)
+red_turtle.pen = rg.Pen('green', 15)
+red_turtle.forward(95)
+red_turtle.left(120)
+for p in range(2):
+    red_turtle.left(120)
+    red_turtle.forward(100)
 
-for z in range(3):
+for z in range(2):
     yellow_turtle.backward(100)
     yellow_turtle.left(120)
+yellow_turtle.backward(105)
+yellow_turtle.pen = rg.Pen('purple', 15)
+yellow_turtle.backward(95)
+yellow_turtle.right(60)
+yellow_turtle.forward(100)
+yellow_turtle.right(120)
+yellow_turtle.forward(100)
