@@ -29,7 +29,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 ###############################################################################
 import rosegraphics as rg
 
-window = rg.TurtleWindow
+window = rg.TurtleWindow()
 
 red_turtle = rg.SimpleTurtle('turtle')
 red_turtle.pen = rg.Pen('red', 15)
@@ -60,3 +60,5 @@ yellow_turtle.right(60)
 yellow_turtle.forward(100)
 yellow_turtle.right(120)
 yellow_turtle.forward(100)
+
+window.close_on_mouse_click()
